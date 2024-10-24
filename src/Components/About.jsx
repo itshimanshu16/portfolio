@@ -145,33 +145,39 @@ const About = () => {
 
 
 
-            <motion.div
-
-              initial={{ x: -500, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={
-                {
-                  ease: "easeOut",
-                  duration: 0.8
-                }
-              } className="box3 w-[80vw] lg:w-[45vw] h-[35vh]  bg-white bg-opacity-5 border-2 rounded-xl border-gray-400  ">
-              <div className='flex'>
-                <span><img className='invert scale-125 p-4 ' src="assets/sparkle.svg" alt="" /></span>
-                <span className='text-2xl font-semibold pt-3 '>Beyond The Code</span>
-              </div>
-              <div className='font-semibold text-base text-gray-400 pl-14'> Explore my Hobbies and Interest Beyond the Digital Realm.  </div>
-              <div className='p-8  py-5 '>
-                <li><span className='text-lg font-semibold text-gray-300'>Photography </span>   </li>
-                <li><span className='text-lg font-semibold text-gray-300'> Chess  </span></li>
-                <li><span className='text-lg font-semibold text-gray-300'> Travelling  </span></li>
-                <li><span className='text-lg font-semibold text-gray-300'> Music  </span></li>
-
-
-              </div>
-
-
-
-            </motion.div>
+          <motion.div
+  initial={{ x: -500, opacity: 0 }}
+  whileInView={{ x: 0, opacity: 1 }}
+  transition={{
+    ease: "easeOut",
+    duration: 0.8,
+  }}
+  className="box3 w-[90vw] lg:w-[45vw] h-[35vh] bg-white bg-opacity-5 border-2 rounded-xl border-gray-400"
+>
+  <div className="flex">
+    <span>
+      <img className="invert scale-125 p-4" src="assets/sparkle.svg" alt="" />
+    </span>
+    <span className="text-2xl font-semibold pt-3">Beyond The Code</span>
+  </div>
+  <div className="font-semibold text-base text-gray-400 pl-8 lg:pl-14">
+    Explore my Hobbies and Interests Beyond the Digital Realm.
+  </div>
+  <div className="p-5 py-5">
+    <li>
+      <span className="text-lg font-semibold text-gray-300">Photography </span>
+    </li>
+    <li>
+      <span className="text-lg font-semibold text-gray-300">Chess</span>
+    </li>
+    <li>
+      <span className="text-lg font-semibold text-gray-300">Travelling</span>
+    </li>
+    <li>
+      <span className="text-lg font-semibold text-gray-300">Music</span>
+    </li>
+  </div>
+</motion.div>
 
 
 
