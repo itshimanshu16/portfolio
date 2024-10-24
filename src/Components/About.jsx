@@ -58,15 +58,8 @@ const About = () => {
 
           <div className="first flex justify-center gap-8 mt-5 mb-5 " >
 
-            <motion.div
-              initial={{ x: -500, opacity: 0 }}
-              whileInView={{ x: 0, opacity: 1 }}
-              transition={
-                {
-                  ease: "easeOut",
-                  duration: 0.8
-                }
-              }
+            <div
+             
               className="box1 hidden lg:block w-[25vw] h-[35vh]  bg-white bg-opacity-5 border-2 rounded-xl border-gray-400    ">
               <div className='flex'>
                 <span><img className='invert scale-125 p-4 ' src="assets/sparkle.svg" alt="" /></span>
@@ -79,7 +72,7 @@ const About = () => {
 
 
               </div>
-            </motion.div>
+            </div>
 
 
             <motion.div
