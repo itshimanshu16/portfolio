@@ -99,7 +99,7 @@ const Hero = () => {
           
       
       >
-        <img className='w-[70vw] h-[70vw] sm:w-[23vw] sm:h-[23vw] m-auto border rounded-full' src="../src/assets/img/222.jpg" />
+        <img className='w-[70vw] h-[70vw] sm:w-[23vw] sm:h-[23vw] m-auto border rounded-full' src="assets/222.jpg" />
         </motion.div>
 
 

@@ -71,7 +71,7 @@ const Contact = () => {
         theme='dark'
       />
 
-      <div id='contact' className='bg-[url(../src/assets/images/77.jpg)] w-[100%] h-auto bg-cover bg-center'>
+      <div id='contact' className='bg-[url(assets/77.jpg)] w-[100%] h-auto bg-cover bg-center'>
         <div className='w-[100%] h-auto min-h-[100vh] bg-black bg-opacity-85 backdrop-blur-2xl flex justify-center items-center p-4'>
           <div className='flex flex-col lg:flex-row w-[100%] lg:w-[80vw] h-auto lg:h-[70vh] bg-white bg-opacity-5 border-none rounded-2xl p-6 lg:p-10 space-y-8 lg:space-y-0'>
             <div className='w-full lg:w-1/2 p-5 flex flex-col justify-center text-center text-white'>

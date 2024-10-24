@@ -4,25 +4,25 @@ import { motion } from "framer-motion"
 const Toolboxitems = [
   {
     title: "HTML5",
-    icon: <img className='  h-10' src="src/assets/icons/html5.svg" alt="" />,
+    icon: <img className='  h-10' src="assets/html5.svg" alt="" />,
   },
   {
     title: "Css3",
-    icon: <img className='  h-10' src="src/assets/icons/css3.svg" alt="" />,
+    icon: <img className='  h-10' src="assets/css3.svg" alt="" />,
   },
   {
     title: "Javascript",
-    icon: <img className=' h-10' src="src/assets/icons/square-js.svg" alt="" />,
+    icon: <img className=' h-10' src="assets/square-js.svg" alt="" />,
   },
   {
     title: "React",
-    icon: <img className='   h-10' src="src/assets/icons/react.svg" alt="" />,
+    icon: <img className='   h-10' src="assets/react.svg" alt="" />,
   },
   
 ]
 const About = () => {
   return (
-    <div id='about' className='Fullpage w-[100%] h-[100vh] bg-[url(../src/assets/images/77.jpg)] bg-cover bg-center  '>
+    <div id='about' className='Fullpage w-[100%] h-[100vh] bg-[url(assets/77.jpg)] bg-cover bg-center  '>
       <div className='secondlayer h-[100vh] bg-black bg-opacity-85 backdrop-blur-xl'>
 
         <motion.div
@@ -69,7 +69,7 @@ const About = () => {
               }
               className="box1 hidden lg:block w-[25vw] h-[35vh]  bg-white bg-opacity-5 border-2 rounded-xl border-gray-400    ">
               <div className='flex'>
-                <span><img className='invert scale-125 p-4 ' src="src/assets/icons/sparkle.svg" alt="" /></span>
+                <span><img className='invert scale-125 p-4 ' src="assets/sparkle.svg" alt="" /></span>
                 <span className='text-2xl font-semibold pt-3 '>Qualification</span>
               </div>
               <div className='font-semibold text-base text-gray-400 pl-14'> Here are my some of my Qualifications.  </div>
@@ -93,7 +93,7 @@ const About = () => {
               } className="box2 w-[80vw] lg:w-[45vw] h-[35vh]  bg-white bg-opacity-5 border-2 rounded-xl border-gray-400  ">
 
               <div className='flex'>
-                <span><img className='invert scale-125 p-4 ' src="src/assets/icons/sparkle.svg" alt="" /></span>
+                <span><img className='invert scale-125 p-4 ' src="assets/sparkle.svg" alt="" /></span>
                 <span className='text-2xl font-semibold pt-3 '>My Toolbox</span>
               </div>
               <div className='  font-semibold text-base text-gray-400 pl-14'>Explore the technologies and Tools I use to make some amazing projects.</div>
@@ -121,11 +121,11 @@ const About = () => {
               <div className='lg:flex hidden'>
 
                 <div className='m-5 ml-12 h-12 border rounded-xl flex w-32 text-lg p-2 py-1 font-medium  gap-2'  >
-                  <span className=''><img className='w-9 invert' src="src/assets/icons/nextjs.svg" alt="" /></span>
+                  <span className=''><img className='w-9 invert' src="assets/nextjs.svg" alt="" /></span>
                   <span className='my-auto'>NextJs</span>
                 </div>
                 <div className='h-12 mt-5 border rounded-xl flex w-32 text-lg p-2 py-1 font-medium  gap-2'>
-                  <span className=' '><img className='w-7 pt-3 ' src="src/assets/icons/tailwind.png" alt="" /></span>
+                  <span className=' '><img className='w-7 pt-3 ' src="assets/tailwind.png" alt="" /></span>
                   <span className='my-auto'>Tailwind</span>
                 </div>
               </div>
@@ -156,7 +156,7 @@ const About = () => {
                 }
               } className="box3 w-[80vw] lg:w-[45vw] h-[35vh]  bg-white bg-opacity-5 border-2 rounded-xl border-gray-400  ">
               <div className='flex'>
-                <span><img className='invert scale-125 p-4 ' src="src/assets/icons/sparkle.svg" alt="" /></span>
+                <span><img className='invert scale-125 p-4 ' src="assets/sparkle.svg" alt="" /></span>
                 <span className='text-2xl font-semibold pt-3 '>Beyond The Code</span>
               </div>
               <div className='font-semibold text-base text-gray-400 pl-14'> Explore my Hobbies and Interest Beyond the Digital Realm.  </div>
@@ -188,11 +188,11 @@ const About = () => {
                 }
               } className="box4 hidden lg:block w-[25vw] h-[35vh]  bg-white bg-opacity-5 border-2 rounded-xl border-gray-400  ">
               <div className='flex'>
-                <span><img className='invert scale-125 p-4 ' src="src/assets/icons/sparkle.svg" alt="" /></span>
+                <span><img className='invert scale-125 p-4 ' src="assets/sparkle.svg" alt="" /></span>
                 <span className='text-2xl font-semibold pt-3 '>My Reads</span>
               </div>
               <div className='font-semibold text-base text-gray-400 pl-14'> Explore the Books Shaping my Perspective. </div>
-              <img className='h-[18vh] mx-auto' src="src/assets/images/book-cover.png " alt="" />
+              <img className='h-[18vh] mx-auto' src="assets/book-cover.png " alt="" />
             </motion.div>
           </div>
         </div>

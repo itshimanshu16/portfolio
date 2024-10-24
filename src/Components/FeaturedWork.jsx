@@ -16,7 +16,7 @@ const FeaturedWork = () => {
     });
 
     return (
-        <div className='flex flex-col justify-center bg-[url(../src/assets/images/77.jpg)] bg-cover bg-center' ref={ref}>
+        <div className='flex flex-col justify-center bg-[url(assets/77.jpg)] bg-cover bg-center' ref={ref}>
             <div className='secondlayer h-full bg-black bg-opacity-85 backdrop-blur-xl'>
                 {/* Sticky heading and progress bar container */}
                 <div className="sticky top-0 z-50 bg-transparent my-5 bg-opacity-90 w-full">
@@ -41,7 +41,7 @@ const FeaturedWork = () => {
                     {/* Karate Master Project */}
 
                     <div className="sticky top-28 hover:scale-105 transition-all duration-300 w-[70vw] h-[70vh] border-none pl-5 rounded-3xl bg-zinc-950 flex flex-col 2xl:flex-row justify-center items-center text-center">
-                        <img className='w-[60vw] h-[40vh] 2xl:w-[35vw] 2xl:h-[50vh] object-contain border-none rounded-xl' src="src/assets/images/88.png" alt="Karate Master" />
+                        <img className='w-[60vw] h-[40vh] 2xl:w-[35vw] 2xl:h-[50vh] object-contain border-none rounded-xl' src="assets/88.png" alt="Karate Master" />
                         <div className='p-10'>
                             <div className='text-xl 2xl:text-2xl font-semibold'>Karate Master</div>
                             <div className='text-sm 2xl:text-base'>
@@ -56,7 +56,7 @@ const FeaturedWork = () => {
 
                     {/* PASSKEY Project */}
                     <div className="sticky top-28 hover:scale-105 transition-all duration-300 w-[70vw] h-[70vh] border-none pl-5 rounded-3xl bg-zinc-950 flex flex-col 2xl:flex-row justify-center items-center text-center">
-                        <img className='w-[60vw] h-[40vh] 2xl:w-[35vw] 2xl:h-[50vh] object-contain border-none rounded-xl' src="src/assets/images/99.png" alt="PASSKEY - A password Manager" />
+                        <img className='w-[60vw] h-[40vh] 2xl:w-[35vw] 2xl:h-[50vh] object-contain border-none rounded-xl' src="assets/99.png" alt="PASSKEY - A password Manager" />
                         <div className='p-10'>
                             <div className='text-xl 2xl:text-2xl font-semibold'>PASSKEY - A password Manager</div>
                             <div className='text-sm 2xl:text-base'>
@@ -72,7 +72,7 @@ const FeaturedWork = () => {
 
                     {/* Portfolio Project */}
                     <div className="sticky top-28 hover:scale-105 transition-all duration-300 w-[70vw] h-[70vh] border-none pl-5 rounded-3xl bg-zinc-950 flex flex-col 2xl:flex-row justify-center items-center text-center">
-                        <img className='w-[60vw] h-[40vh] 2xl:w-[35vw] 2xl:h-[50vh] object-contain border-none rounded-xl' src="src/assets/images/66.png" alt="My Portfolio" />
+                        <img className='w-[60vw] h-[40vh] 2xl:w-[35vw] 2xl:h-[50vh] object-contain border-none rounded-xl' src="assets/66.png" alt="My Portfolio" />
                         <div className='p-10'>
                             <div className='text-xl 2xl:text-2xl font-semibold'>My Portfolio</div>
                             <div className='text-sm 2xl:text-base'>
